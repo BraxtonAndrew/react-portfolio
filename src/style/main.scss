@@ -1,28 +1,23 @@
-html {
-    font-size: 62.5%; // 1rem is 10px
-}
+@import "./MISC/variables.scss";
+@import "./MISC/mixins.scss";
+@import "./base.scss";
+@import "./MISC/forms.scss";
+@import "./MISC/button.scss";
+@import "/MISC/grid.scss";
+@import "./navigation.scss";
+@import "./MISC/layouts.scss";
+@import "./portfolio/portfolio.scss";
+@import "./portfolio/portfolio-manager.scss";
+@import "./portfolio/portfolio-form.scss";
+@import "./portfolio/portfolio-sidebar.scss";
+@import "./portfolio/portfolio-detail.scss";
+@import "./portfolio/home.scss";
+@import "./MISC/auth.scss";
+@import "./blog/blog.scss";
+@import "./MISC/loaders.scss";
+@import "./blog/blog-form.scss";
+@import "./MISC/modals.scss";
+@import "./react-draft-wysiwyg.scss";
+@import "./blog/rich-text-editor.scss";
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-    font-family: 'montserrat';
-}
 
-body {
-    overflow-x: hidden;
-    font-weight: normal;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
